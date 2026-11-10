@@ -40,6 +40,18 @@
       "created_at": "2026-11-10T04:54:58.030Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "38ba32d1-0d4f-4207-bd95-bce000045879",
+      "role": "agent",
+      "content": "Great! Everything is connected and working. \n\nWhat would you like to build or work on for **hello**?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "8388875d-f25c-4904-9a3a-c336f29d84aa",
+      "created_at": "2026-11-10T04:55:52.875Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
