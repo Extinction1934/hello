@@ -3,6 +3,31 @@
   "name": "Hello",
   "createdAt": "2026-11-10T04:45:22.929Z",
   "filename": "5f257b62-675f-4653-9d5c-4b601ed23309.json",
-  "geminiStarted": false,
-  "messages": []
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "89cdcf94-2303-41cf-8a7a-489aa803abad",
+      "role": "user",
+      "content": "So",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-10T04:52:57.359Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "44c926d1-5f2b-45b7-ba7f-0c9785fa440e",
+      "role": "agent",
+      "content": "error: Eligibility check failed: Your current account is not eligible for Antigravity. Verify your account to continue.\n\nAlternatively, try signing in with another personal Google account.\n\nPlease verify your account in your browser to continue:\nhttps://accounts.google.com/v3/signin/continue?plt=AKgnsbs0xeFXC1KYqV2QV2kVQ3TzHEeVhMh9aGVlZdguBHe2W0_mPd6H9z7qjHpq_FPPaBrZcnhDTg9fkOmus-26DCO8Ba_G-qhtlFlWagGVFMaudJdHmOnwLE2a2afCpFAtnWSvzNKJ&continue=https://developers.google.com/gemini-code-assist/auth/auth_success_gemini&sarp=1&scc=1&flowName=GlifWebSignIn&authuser\nEligibility check failed: Your current account is not eligible for Antigravity. Verify your account to continue.\n\nAlternatively, try signing in with another personal Google account.\n\nPlease verify your account in your browser to continue:\nhttps://accounts.google.com/v3/signin/continue?plt=AKgnsbs0xeFXC1KYqV2QV2kVQ3TzHEeVhMh9aGVlZdguBHe2W0_mPd6H9z7qjHpq_FPPaBrZcnhDTg9fkOmus-26DCO8Ba_G-qhtlFlWagGVFMaudJdHmOnwLE2a2afCpFAtnWSvzNKJ&continue=https://developers.google.com/gemini-code-assist/auth/auth_success_gemini&sarp=1&scc=1&flowName=GlifWebSignIn&authuser",
+      "status": "error",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "89cdcf94-2303-41cf-8a7a-489aa803abad",
+      "created_at": "2026-11-10T04:52:59.186Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    }
+  ]
 }
