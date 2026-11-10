@@ -57,11 +57,23 @@
       "id": "2b9fcdb5-debb-473f-9aab-537b5cb822b8",
       "role": "user",
       "content": "Go ahead with the plan.",
-      "status": "pending",
+      "status": "cancelled",
       "model": "gemini-3.8-flash-high",
       "client_type": "gemini-bridge",
       "parent_message_id": null,
       "created_at": "2026-11-10T04:56:10.320Z",
+      "sender": "ios",
+      "is_cancelled": true
+    },
+    {
+      "id": "7d38a40d-79d8-4f33-ac36-9b0719a9deb0",
+      "role": "user",
+      "content": "So we can build apps? What’s the limit?",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-10T04:56:23.446Z",
       "sender": "ios",
       "is_cancelled": false
     }
